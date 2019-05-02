@@ -10,11 +10,13 @@
 DB_USERNAME=Usuário do Mysql;
 DB_PASSWORD=Senha do Mysql;
 ```
-Exemplo:
+
+### Exemplo:
 ```DB_DATABASE=trabalho;
 DB_USERNAME=root;
 DB_PASSWORD=senha123;
 ```
+
 5. Rodar o comando 'composer install' e 'composer update' dentro da pasta do projeto;
 
 6. Rodar o comando 'php artisan key:generate' dentro da pasta do projeto;
