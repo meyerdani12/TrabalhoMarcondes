@@ -18,7 +18,7 @@ class OrdensDetalhesController extends Controller
     
     public function lista() {
         $ordensdetalhes = DB::select("select * from ordensdetalhes");
-        return view("ordensdetalhes.listagem")->withProdutos($ordensdetalhes);
+        return view("ordensdetalhes.listagem")->withOrdensDetalhes($ordensdetalhes);
     }
 
     public function formulario() {
